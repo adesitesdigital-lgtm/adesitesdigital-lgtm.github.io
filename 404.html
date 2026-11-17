@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en-GB">
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>AdeSites Digital</title>
+<script>
+// Instagram stores "#services" as "%23services", which GitHub Pages treats as a missing page: send it (and any dead link) to the home page, keeping tracking parameters.
+var p = decodeURIComponent(location.pathname).replace(/^\//, '');
+location.replace('/' + location.search + (p.charAt(0) === '#' ? p : location.hash));
+</script>
+<p><a href="/">Go to the AdeSites Digital home page</a></p>
+</html>
