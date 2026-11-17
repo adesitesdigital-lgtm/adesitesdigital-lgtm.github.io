@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://adesitesdigital-lgtm.github.io/sitemap.xml
